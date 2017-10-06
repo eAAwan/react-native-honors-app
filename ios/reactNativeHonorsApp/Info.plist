@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -25,14 +25,14 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb814308238712456</string>
+				<string>fb1639547289398638</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>814308238712456</string>
+	<string>1639547289398638</string>
 	<key>FacebookDisplayName</key>
 	<string>ReactNativeHonorsApp</string>
 	<key>LSApplicationQueriesSchemes</key>
@@ -55,14 +55,12 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To find the location of the user</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>To find the location of the user</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>For login info</string>
-  <key>NSLocationWhenInUseUsageDescription</key>
-  <string>To find the location of the user</string>
-  <key>NSLocationAlwaysUsageDescription</key>
-  <string>To find the location of the user</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>

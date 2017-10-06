@@ -29,6 +29,7 @@ DerivedData
 local.properties
 
 # node.js
+node_modules/
 
 # BUCK
 buck-out/
